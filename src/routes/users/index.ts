@@ -19,7 +19,9 @@ const plugin: FastifyPluginAsyncJsonSchemaToTs = async (
         params: idParamSchema,
       },
     },
-    async function (request, reply): Promise<UserEntity> {}
+    async function (request, reply): Promise<UserEntity> {
+      // code will be here
+    }
   );
 
   fastify.post(
